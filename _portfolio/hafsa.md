@@ -2,11 +2,13 @@
 caption: #what displays in the portfolio grid:
   title: sobre mí
   subtitle: mi presentación
+  image: https://github.com/Hafsa-Katkout/agency/tree/main/assets/img/portfolio/5.jpg #main image, can be a link or a file in assets/img/portfolio
+alt: image alt text
   
 #what displays when the item is clicked:
 title: sobre mí
 subtitle: una breve presentación
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
+image: https://github.com/Hafsa-Katkout/agency/tree/main/assets/img/portfolio/5.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 
 ---

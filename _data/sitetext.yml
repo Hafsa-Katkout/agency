@@ -30,12 +30,12 @@ en: &DEFAULT_EN
       - title: "Hafsa Katkout Aabil"
         year: "2024-11-17"
         desc: "¡Hola! Soy **Hafsa Katkout Aabil**, estudiante de **ASIR** en su segundo año, y apasionada por la informática y la tecnología."
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/5.jpg
         alt:
       - title: "La Actividad de Montar a Caballo"
         year: "2024-11-17"
         desc: "ontar a caballo es una actividad que ha estado presente en la historia de la humanidad durante siglos. No solo se trata de una práctica de equitación, sino también de una actividad cultural y deportiva que requiere habilidades específicas y un entendimiento profundo del comportamiento del caballo."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/1.jpg
         alt:
       - title: "Natación"
         year: "2024-11-17"
@@ -68,7 +68,7 @@ en: &DEFAULT_EN
     list:
       - title: "github"
         url: https://github.com/Hafsa-Katkout
-        logo:
+        logo: assets/img/clients/1.jpg
 
   team:
     title: "mi equipo aúnque soy sola ! "
@@ -78,7 +78,7 @@ en: &DEFAULT_EN
     people:
       - name: "Hafsa Katkout Aabil"
         role: "Creadora del sitio"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/1jpg.jpg
         social:
         - url: https://github.com/Hafsa-Katkout
             icon: "fab fa-github"
