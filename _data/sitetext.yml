@@ -1,0 +1,126 @@
+en: &DEFAULT_EN
+  header:
+    title: bienvenido a mi sitio 
+    text: espero que te gustará !
+    button: más
+    buttonlink: "#services"
+
+  services:
+    title: "Servicios"
+    text: "posts"
+    section: services
+    list:
+      - title: "pagina de github"
+        desc: "mi pagina en github"
+        icon: https://github.com/Hafsa-Katkout
+
+  portfolio:
+    title: "publicaciones"
+    text: "mis publicaciones"
+    section: portfolio
+    closebutton: "proyecto"
+
+  timeline:
+    title: "secuencia de publicaciones"
+    text: "cuando se crea"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Hafsa Katkout Aabil"
+        year: "2024-11-17"
+        desc: "¡Hola! Soy **Hafsa Katkout Aabil**, estudiante de **ASIR** en su segundo año, y apasionada por la informática y la tecnología."
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "La Actividad de Montar a Caballo"
+        year: "2024-11-17"
+        desc: "ontar a caballo es una actividad que ha estado presente en la historia de la humanidad durante siglos. No solo se trata de una práctica de equitación, sino también de una actividad cultural y deportiva que requiere habilidades específicas y un entendimiento profundo del comportamiento del caballo."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Natación"
+        year: "2024-11-17"
+        desc: "Nadar es una actividad física que consiste en moverse a través del agua utilizando los brazos y las piernas. Es una habilidad que ha sido parte de la humanidad desde tiempos antiguos, y hoy en día es tanto un deporte como una forma de ejercicio recreativo. Nadar tiene muchos beneficios tanto para la salud física como mental."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Voleibol"
+        year: "2024-11-17"
+        desc: "El voleibol es un deporte dinámico y entretenido que se juega entre dos equipos de seis jugadores, quienes intentan pasar un balón por encima de una red para que toque el suelo en el campo contrario. Es un deporte que combina habilidades de coordinación, estrategia y trabajo en equipo, lo que lo convierte en una actividad popular a nivel mundial, tanto en su modalidad de sala como en playa."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Paracaidismo"
+        year: "2024-11-17"
+        desc: "El paracaidismo es un deporte extremo que consiste en saltar desde un avión o un helicóptero a gran altura, con la finalidad de abrir un paracaídas a tiempo para aterrizar de forma segura. Este deporte combina adrenalina, valentía y habilidad, y es una experiencia que atrae a muchas personas alrededor del mundo en busca de emociones fuertes."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "espera las nuevas publicaciones!"
+
+  about:
+    title: "sobre mí"
+    text: "Hafsa Katkout Aabil"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "github"
+        url: https://github.com/Hafsa-Katkout
+        logo:
+
+  team:
+    title: "mi equipo aúnque soy sola ! "
+    text: "presentación"
+    subtext: breve presentacion
+    section: team
+    people:
+      - name: "Hafsa Katkout Aabil"
+        role: "Creadora del sitio"
+        image: assets/img/team/500x500.jpg
+        social:
+        - url: https://github.com/Hafsa-Katkout
+            icon: "fab fa-github"
+          - url: https://instagram.com
+            icon: "fab fa-instagram"
+          - url: www.linkedin.com/in/hafsa-katkout-aabil-722291305
+            icon: fab fa-linkedin-in
+      
+
+  contact:
+    title: "contacto"
+    text: "contáctame aquí sino llamame : +34624704023"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "enviar mensaje"
+
+  footer:
+    legal: "contact"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: www.linkedin.com/in/hafsa-katkout-aabil-722291305
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/Hafsa-Katkout
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
